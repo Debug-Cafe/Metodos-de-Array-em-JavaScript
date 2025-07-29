@@ -1,0 +1,6 @@
+// h. Criar uma função de busca que retorna produtos cujo nome contenha um termo específico
+function searchByName(term) {
+  return inventory.filter(product =>
+    product.name.toLowerCase().includes(term.toLowerCase())
+  );
+}
