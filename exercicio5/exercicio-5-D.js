@@ -1,0 +1,5 @@
+d)
+const hasOutOfStock = inventory.some(product => product.stock === 0);
+console.log(hasOutOfStock);
+
+
